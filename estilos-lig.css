@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville');
+
+/* Cuerpo */
+body {
+  background-image: url("https://dl.dropboxusercontent.com/s/0icjei51x7xdpie/fondo.jpg?dl=0");
+  background-attachment: fixed;
+
+}
+
+input, textarea {
+    min-width: 75%;
+    max-width: 75%;
+}
+
+h2 {
+font-family: 'Libre Baskerville', serif!important;
+  color: black;
+}
+
+.card {
+  background-color: #41545A!important;
+  padding: 20px;
+
+  color: #fff;
+  background: 
+
+        url(https://dl.dropboxusercontent.com/s/itt4nrye39avz1a/borde-top.png?dl=0) top left no-repeat, 
+
+        url(https://dl.dropboxusercontent.com/s/itt4nrye39avz1a/borde-top.png?dl=0) bottom right no-repeat,
+
+        url(https://dl.dropboxusercontent.com/s/lj991m4o53dkgi0/borde-lados.png?dl=0) top left repeat-y, 
+
+        url(https://dl.dropboxusercontent.com/s/lj991m4o53dkgi0/borde-lados.png?dl=0) top right repeat-y;
+}
+
+
+.bg-img {
+    background-image: url("https://dl.dropboxusercontent.com/s/0icjei51x7xdpie/fondo.jpg?dl=0");
+     background-attachment: fixed;
+}
+
+/* Cabezera */
+
+.logo {
+  
+  float: left;
+  padding: 20px;
+}
+
+.logo-img {
+  background-color: white;
+  padding: 15px;
+
+}
+
+.lig {
+  max-width: 250px;
+}
+
+nav {
+  background-color: #213E9A;
+  color: white;
+}
+
+img { 
+    max-width: 100%; 
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.img-responsive {
+    left: 50%;
+    margin-left: -155px;
+    position: absolute;
+}
+
+/* Menu */
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+
+/* Sub menus de navegacion */
+
+.navbar, nav a {
+  background-color: #213E9A;
+  color: white;
+  font-size: 20px;
+}
+
+/* Carusel de Imagenes */ 
+
+.diy-slideshow{
+  position: relative;
+  display: block;
+  overflow: hidden;
+  margin: 0 auto;
+  width: 65%;
+  min-width: 500px;
+  max-width: 900px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  
+
+}
+figure{
+  position: absolute;
+  opacity: 0;
+  transition: 1s opacity;
+  
+}
+
+figure.show{
+  opacity: 1;
+  position: static;
+  transition: 1s opacity;
+}
+.next, .prev{
+  color: #fff;
+  position: absolute;
+  background: rgba(0,0,0, .6);
+  top: 50%;
+  z-index: 1;
+  font-size: 2em;
+  margin-top: -.75em;
+  opacity: .3;
+}
+.next:hover, .prev:hover{
+  cursor: pointer;
+  opacity: 1;
+}
+.next{
+  right: 0;
+  padding: 10px 5px 15px 10px;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+.prev{
+  left: 0;
+  padding: 10px 10px 15px 5px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+/* Servicios */
+
+.servicios {
+    /*background-color: #41545A!important;*/
+    padding: 60px!important;
+  margin-bottom: 40px;
+  color: white;
+  background: 
+
+ 
+        url('https://dl.dropboxusercontent.com/s/itt4nrye39avz1a/borde-top.png?dl=0') top left repeat-x, 
+
+        url('https://dl.dropboxusercontent.com/s/itt4nrye39avz1a/borde-top.png?dl=0') bottom right repeat-x,
+
+        url('https://dl.dropboxusercontent.com/s/lj991m4o53dkgi0/borde-lados.png?dl=0') top left repeat-y, 
+  
+        url('https://dl.dropboxusercontent.com/s/lj991m4o53dkgi0/borde-lados.png?dl=0') top right repeat-y,
+            url('https://dl.dropboxusercontent.com/s/alz5wa3e0xtbyap/fondo-3.png?dl=0');
+
+}
+
+/* Contactanos */
+
+.contactanos {
+  background-color: #41545A!important;
+    padding: 60px!important;
+  color: white;
+  background: 
+
+        url('https://dl.dropboxusercontent.com/s/itt4nrye39avz1a/borde-top.png?dl=0') top left repeat-x, 
+       
+        url(https://dl.dropboxusercontent.com/s/itt4nrye39avz1a/borde-top.png?dl=0) bottom right repeat-x,
+  
+        url('https://dl.dropboxusercontent.com/s/lj991m4o53dkgi0/borde-lados.png?dl=0') top left repeat-y, 
+  
+        url('https://dl.dropboxusercontent.com/s/lj991m4o53dkgi0/borde-lados.png?dl=0') top right repeat-y,
+            url('https://dl.dropboxusercontent.com/s/pro3n20b818aqrm/fondo-2.png?dl=0');
+}
+
+/* Pie de pagina */
+
+footer {
+  margin-top: 50px;
+  text-align: center;
+  color: white;
+  padding: 2.5%;
+  background: 
+        url('https://dl.dropboxusercontent.com/s/itt4nrye39avz1a/borde-top.png?dl=0') top left repeat-x,
+        #41545A;
+}
+
+
